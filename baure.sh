@@ -32,7 +32,7 @@ baure_help() {
 
 baure_init() {
     echo "alias baure='sh $BAURE_PATH/baure'"
-    echo "alias baure-install='sh $BAURE_PATH/baure'"
+    echo "alias baure-install='sh $BAURE_PATH/baure install'"
 }
 
 if [ "$1" = "list" ] || [ "$1" = "l" ]; then
